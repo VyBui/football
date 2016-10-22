@@ -9,7 +9,8 @@ import { AboutPage } from '../pages/about/about';
 import { PopoverPage } from '../pages/about-popover/about-popover';
 import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
-import { MapPage } from '../pages/map/map';
+import { HotelPage } from '../pages/hotel/hotel';
+//import { MapPage } from '../pages/map/map';
 import { SchedulePage } from '../pages/schedule/schedule';
 import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../pages/session-detail/session-detail';
@@ -29,7 +30,8 @@ import { UserData } from '../providers/user-data';
     AboutPage,
     AccountPage,
     LoginPage,
-    MapPage,
+    HotelPage,
+//    MapPage,
     PopoverPage,
     SchedulePage,
     ScheduleFilterPage,
@@ -49,7 +51,8 @@ import { UserData } from '../providers/user-data';
     AboutPage,
     AccountPage,
     LoginPage,
-    MapPage,
+    HotelPage,
+//    MapPage,
     PopoverPage,
     SchedulePage,
     ScheduleFilterPage,
@@ -60,6 +63,6 @@ import { UserData } from '../providers/user-data';
     TabsPage,
     TutorialPage
   ],
-  providers: [ConferenceData, UserData, Storage]
+  providers: [ConferenceData, UserData, Storage,]
 })
 export class AppModule {}
