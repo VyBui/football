@@ -11,7 +11,8 @@ import { NavController } from 'ionic-angular';
   selector: 'page-hotel',
   templateUrl: 'hotel.html'
 })
-export class Hotel {
+
+export class HotelPage {
 
   constructor(private navCtrl: NavController) {}
 
@@ -19,8 +20,5 @@ export class Hotel {
     console.log('Hello Hotel Page');
   }
 
-  //openSearch(){
-    //this.nav.push(SearchPage);
-  //}
 
 }
