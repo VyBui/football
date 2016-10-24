@@ -1,17 +1,7 @@
-import {
-    Component
-} from '@angular/core';
-import {
-    NavController,
-    LoadingController,
-    AlertController
-} from 'ionic-angular';
-import {
-    Rooms
-} from '../../providers/rooms/rooms';
-import {
-    AvailableRoomsPage
-} from '../available-rooms/available-rooms';
+import { Component } from '@angular/core';
+import { NavController, LoadingController, AlertController } from 'ionic-angular';
+import { Rooms } from '../../providers/rooms/rooms';
+import { AvailableRoomsPage } from '../available-rooms/available-rooms';
 /*
   Generated class for the Search page.
 
@@ -22,7 +12,7 @@ import {
     selector: 'page-search',
     templateUrl: 'search.html'
 })
-export class Search {
+export class SearchPage {
 
     roomType: any;
     guests: any;

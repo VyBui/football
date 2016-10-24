@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { SearchPage } from '../search/search';
 
 /*
   Generated class for the Hotel page.
@@ -20,5 +21,7 @@ export class HotelPage {
     console.log('Hello Hotel Page');
   }
 
-
+  openSearch(){
+      this.navCtrl.push(SearchPage);
+    }
 }

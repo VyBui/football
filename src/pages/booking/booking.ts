@@ -6,9 +6,7 @@ import {
     NavParams,
     LoadingController
 } from 'ionic-angular';
-import {
-    Rooms
-} from '../../providers/rooms/rooms';
+import { Rooms } from '../../providers/rooms/rooms';
 
 /*
   Generated class for the Booking page.
@@ -20,7 +18,7 @@ import {
     selector: 'page-booking',
     templateUrl: 'booking.html'
 })
-export class Booking {
+export class BookingPage {
 
     room: any;
     details: any;

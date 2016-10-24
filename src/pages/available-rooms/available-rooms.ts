@@ -12,7 +12,7 @@ import { BookingPage } from '../booking/booking';
   selector: 'page-available-rooms',
   templateUrl: 'available-rooms.html'
 })
-export class AvailableRooms {
+export class AvailableRoomsPage {
 
   rooms: any;
 
