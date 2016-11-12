@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 
 import { Events, MenuController, Nav, Platform } from 'ionic-angular';
 import { Splashscreen, StatusBar } from 'ionic-native';
+import firebase from 'firebase';
 
 import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
@@ -54,6 +55,15 @@ export class ConferenceApp {
     platform: Platform,
     confData: ConferenceData
   ) {
+    var config = {
+        apiKey: "AIzaSyD94CtGDpSqq4IY2qc7g_NTsCMxXakYPvQ",
+        authDomain: "footballtime-de7d5.firebaseapp.com",
+        databaseURL: "https://footballtime-de7d5.firebaseio.com",
+        storageBucket: "footballtime-de7d5.appspot.com",
+        messagingSenderId: "760113240995"
+    };
+    firebase.initializeApp(config);
+
     // Call any initial plugins when ready
     platform.ready().then(() => {
       // StatusBar.styleDefault();
